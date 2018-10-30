@@ -5,6 +5,9 @@ function init() {
 
 }
 
+const input = document.querySelector('input')
+input.addEventListener('keydown', e => console.log(e.which))
+
 document.body.addEventListener('keydown', e => {
   if (e.which === 'code') {
     return alert('Hurray!')
