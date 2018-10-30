@@ -7,6 +7,6 @@ function init() {
 
 document.body.addEventListener('keydown', e => {
   if (e.which === 'code') {
-    return alert('Congratulations!')
+    return alert('Hurray!')
   }
 })
